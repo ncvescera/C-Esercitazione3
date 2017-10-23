@@ -8,7 +8,7 @@
  * @param dim   Dimenzione dell'array
  * @param n     Numero decimale
  * @param b     Base
- * @return      0 se la conversione e' andata a buon fine, altrimenti 0
+ * @return      0 se la conversione e' andata a buon fine, altrimenti -1
  */
 int conversioneBase(int array[], int dim, int n, int b);
 
