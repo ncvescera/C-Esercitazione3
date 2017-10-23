@@ -3,6 +3,12 @@
 #include "bool.h"
 #include "dimOf.h"
 
+/**
+ * Funzione che stabilisce se un array contiene una sequenza di interi palindroma
+ * @param array Array
+ * @param dim   Dimenzione dell'array
+ * @return      1 se l'array contiene una sequenza palindroma, altrimenti 0
+ */
 bool palindroma(int array[], int dim);
 
 int main(int argc, char** argv) {
