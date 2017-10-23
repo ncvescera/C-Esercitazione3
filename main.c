@@ -3,7 +3,19 @@
 #include "dimOf.h"
 #include "bool.h"
 
+/**
+ * Funzione che ritorna la media dei numeri contenuti all'interno di un array di double
+ * @param array Array
+ * @param dim   Dimenzione dell'array
+ * @return      Media dei numeri contenuti dall'array
+ */
 double media(double array[], int dim);
+/**
+ * Funzione che individua se la media dei numeri contenuti in un array compare tra i suoi elementi
+ * @param array Array
+ * @param dim   Dimenzione dell'array
+ * @return      1 se un elemento dell'array e' uguale alla media di tutti gli array, altrimenti 0
+ */
 bool  mediaInElem(double array[], int dim);
 
 int main(int argc, char** argv) {
